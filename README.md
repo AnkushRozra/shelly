@@ -1,6 +1,7 @@
-# Shelly
+# Shelly Easy Smart Home Automation
 
-SHELLY: The go-to access control app.
+
+SHELLY: The go-to access control for smart homes.
 
 This Python library provides convenient access to the Shelly cloud API, allowing you to manage your relays, rollers and lights.
 
@@ -12,14 +13,14 @@ Request Feature/Suggestion: https://forms.gle/efGD5DuTpWsX96GG7
 [//]: # ([![Downloads]&#40;https://static.pepy.tech/badge/kisi&#41;]&#40;https://pepy.tech/project/kisi&#41;)
 ## Installation
 ```console
-pip install shelly
+pip install shelly_control
 ```
 Shelly supports Python 3+.
 
 ## Usage
 #### Default
 ```python
-import shelly
+import shelly_control
 ```
 
 #### Authentication
@@ -27,7 +28,7 @@ import shelly
 Before making requests, you need to authenticate using your Shelly API key. Initialize the `Connect` class with your API key:
 
 ```python
-from shelly import Connect
+from shelly_control import Connect
 
 base_url = "Your Cloud Server Address"
 api_key = "Your Authorization cloud key"
@@ -35,11 +36,11 @@ sh = Connect(base_url,api_key)
 ```
 OR
 ```python
-import shelly 
+import shelly_control 
 
 base_url = "Your Cloud Server Address"
 api_key = "Your Authorization cloud key"
-sh = shelly.Connect(base_url,api_key)
+sh = shelly_control.Connect(base_url,api_key)
 ```
 Get Key & Server address from here [Shelly Control Cloud Dashboard](https://control.shelly.cloud/#/settings/user)
 

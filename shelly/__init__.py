@@ -1,1 +1,1 @@
-from .shelly import Connect
+from .shelly_control import Connect
