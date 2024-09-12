@@ -7,10 +7,12 @@ This Python library provides convenient access to the Shelly cloud API, allowing
 
 
 [Shelly Shop](https://www.shelly.com/en/products/shop)<br>
-
 Request Feature/Suggestion: https://forms.gle/efGD5DuTpWsX96GG7
 
-[//]: # ([![Downloads]&#40;https://static.pepy.tech/badge/kisi&#41;]&#40;https://pepy.tech/project/kisi&#41;)
+# Download stats
+
+[![Downloads](https://static.pepy.tech/badge/shelly-control)](https://pepy.tech/project/shelly-control)
+
 ## Installation
 ```console
 pip install shelly_control
